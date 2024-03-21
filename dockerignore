@@ -1,0 +1,13 @@
+node_modules
+.venv
+*.md
+Pipfile
+Pipfile.lock
+plan.txt
+package-lock.json
+__pycache__
+app_original.py
+app_v1.py
+app_v2.py
+app_v3.py
+chatbot.py

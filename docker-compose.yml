@@ -1,0 +1,10 @@
+version: '3.9'
+services:
+  scholardollar-frontend:
+    image: scholardollar.azurecr.io/scholardollar:frontend1.0
+    ports:
+      - 8000:8000
+  scholardollar-backend:
+    image: scholardollar.azurecr.io/scholardollar:backend1.0
+    ports:
+      - 5000:5000
